@@ -20,6 +20,13 @@ body {
   background-size: cover;
 }
 
+.container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 nav {
   display: flex;
   width: 100%;
@@ -63,9 +70,7 @@ nav ul li a:hover::after {
 }
 
 .text-box {
-  margin-top: 30%;
   color: white;
-  bottom: 8%;
 }
 
 .text-box p {
